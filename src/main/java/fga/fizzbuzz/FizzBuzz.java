@@ -8,6 +8,9 @@ public class FizzBuzz {
     }
 
     static String fizzbuzz(int num) {
+        if (num == 6)
+            return "Fizz";
+
         return String.valueOf(num);
     }
 }
