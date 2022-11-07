@@ -7,7 +7,7 @@ public class FizzBuzz {
         }
     }
 
-    private static String fizzbuzz(int num) {
+    static String fizzbuzz(int num) {
         return String.valueOf(num);
     }
 }
