@@ -8,6 +8,7 @@ public class FizzBuzz {
     }
 
     static String fizzbuzz(int num) {
-        return String.valueOf(num);
+        //return String.valueOf(num);
+        return null;
     }
 }
