@@ -9,4 +9,9 @@ class FizzBuzzTest {
     void ordinaryNumberPrintsAsItself() {
         assertEquals("2", FizzBuzz.fizzbuzz(2));
     }
+
+    @Test
+    void multipleOfThreePrintsAsFizz() {
+        assertEquals("Fizz", FizzBuzz.fizzbuzz(6));
+    }
 }
