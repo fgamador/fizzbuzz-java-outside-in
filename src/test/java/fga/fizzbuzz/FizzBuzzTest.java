@@ -14,4 +14,9 @@ class FizzBuzzTest {
     void multipleOfThreePrintsAsFizz() {
         assertEquals("Fizz", FizzBuzz.fizzbuzz(6));
     }
+
+    @Test
+    void multipleOfFivePrintsAsBuzz() {
+        assertEquals("Buzz", FizzBuzz.fizzbuzz(10));
+    }
 }
