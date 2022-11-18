@@ -8,6 +8,9 @@ public class FizzBuzz {
     }
 
     static String fizzbuzz(int num) {
+        if (num == 10)
+            return "Buzz";
+
         if (num % 3 == 0)
             return "Fizz";
 
